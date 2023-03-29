@@ -19,6 +19,18 @@ body {
   align-items: center;
 }
 
+h1 {
+  color: white;
+  font-size: 28px;
+}
+
+p {
+  margin-top: 8px;
+  color: $light-grey;
+  font-size: 15px;
+  line-height: 150%;
+}
+
 .rating {
   box-sizing: border-box;
   background: radial-gradient(
@@ -31,7 +43,7 @@ body {
   width: 412px;
   padding: 32px;
   padding-bottom: 28px;
-  padding-right: 36px;
+  padding-right: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -43,18 +55,6 @@ body {
     border-radius: 50%;
     display: grid;
     place-items: center;
-  }
-
-  h1 {
-    color: white;
-    font-size: 28px;
-    margin-bottom: 0;
-  }
-
-  p {
-    color: $light-grey;
-    font-size: 15px;
-    line-height: 150%;
   }
 
   .numbers {
@@ -72,12 +72,22 @@ body {
       height: $circle-radius;
       width: $circle-radius;
       color: $light-grey;
-      font-size: 18px;
+      font-size: 15px;
+      cursor: pointer;
 
       &:hover {
         background-color: $orange;
         color: white;
       }
+    }
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    .active {
+      background-color: $medium-grey;
+      color: white;
     }
   }
 
@@ -86,15 +96,63 @@ body {
     background-color: $orange;
     color: white;
     text-transform: uppercase;
+    font-weight: bold;
     letter-spacing: 2px;
+    font-size: 16px;
     border: none;
     border-radius: 24px;
     width: 100%;
     padding: 14px;
+    cursor: pointer;
 
     &:hover {
       background-color: white;
       color: $orange;
     }
   }
+}
+
+.thank-you {
+  box-sizing: border-box;
+  background: radial-gradient(
+    circle at top,
+    $dark-blue 0%,
+    $very-dark-blue 100%
+  );
+  border-radius: 26px;
+  height: 412px;
+  width: 412px;
+  padding: 32px;
+  padding-bottom: 28px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    margin: 12px;
+    width: 160px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .selected-msg {
+    margin-top: 16px;
+    background-color: hsl(25, 97%, 53%, 0.1);
+    border-radius: 24px;
+    padding: 8px 16px;
+    color: $orange;
+  }
+}
+
+.hidden {
+  display: none;
 }
