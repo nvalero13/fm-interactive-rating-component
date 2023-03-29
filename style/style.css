@@ -3,7 +3,7 @@ body {
   font-family: "Overpass";
   margin: 0;
   min-height: 100vh;
-  background-color: hsl(220, 14%, 9%);
+  background-color: hsl(228, 11%, 9%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@ p {
 
 .rating {
   box-sizing: border-box;
-  background: radial-gradient(circle at top, hsl(213, 19%, 18%) 0%, hsl(216, 12%, 8%) 100%);
+  background: radial-gradient(circle at top, hsl(215, 19%, 18%) 0%, hsl(215, 27%, 12%) 100%);
   border-radius: 26px;
   height: 412px;
   width: 412px;
@@ -37,7 +37,7 @@ p {
 .rating .star {
   width: 50px;
   height: 50px;
-  background-color: hsl(213, 19%, 18%);
+  background-color: hsl(215, 19%, 18%);
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -52,7 +52,7 @@ p {
 }
 .rating .numbers button {
   font-family: "Overpass";
-  background-color: hsl(213, 19%, 18%);
+  background-color: hsl(215, 19%, 18%);
   display: grid;
   place-items: center;
   border-radius: 50%;
@@ -76,9 +76,8 @@ p {
   background-color: hsl(25, 97%, 53%);
   color: white;
   text-transform: uppercase;
-  font-weight: bold;
   letter-spacing: 2px;
-  font-size: 16px;
+  font-size: 15px;
   border: none;
   border-radius: 24px;
   width: 100%;
@@ -92,7 +91,7 @@ p {
 
 .thank-you {
   box-sizing: border-box;
-  background: radial-gradient(circle at top, hsl(213, 19%, 18%) 0%, hsl(216, 12%, 8%) 100%);
+  background: radial-gradient(circle at top, hsl(215, 19%, 18%) 0%, hsl(215, 27%, 12%) 100%);
   border-radius: 26px;
   height: 412px;
   width: 412px;

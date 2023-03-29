@@ -4,8 +4,8 @@ $orange: hsl(25, 97%, 53%);
 
 $light-grey: hsl(217, 12%, 63%);
 $medium-grey: hsl(216, 12%, 54%);
-$dark-blue: hsl(213, 19%, 18%);
-$very-dark-blue: hsl(216, 12%, 8%);
+$dark-blue: hsl(215, 19%, 18%);
+$very-dark-blue: hsl(215, 27%, 12%);
 
 $circle-radius: 50px;
 
@@ -13,7 +13,7 @@ body {
   font-family: 'Overpass';
   margin: 0;
   min-height: 100vh;
-  background-color: hsl(220, 14%, 9%);
+  background-color: hsl(228, 11%, 9%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,9 +96,8 @@ p {
     background-color: $orange;
     color: white;
     text-transform: uppercase;
-    font-weight: bold;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 15px;
     border: none;
     border-radius: 24px;
     width: 100%;
