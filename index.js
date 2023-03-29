@@ -24,11 +24,9 @@ const select = (e) => {
 }
 
 const numberButtons = document.querySelectorAll('.numbers button')
-console.log(numberButtons)
 
 numberButtons.forEach((button) => {
   button.addEventListener('click', (e) => select(e))
 })
 
-//
-document.querySelector('.submit').addEventListener('click', () => submit(2))
+document.querySelector('.submit').addEventListener('click', () => submit())
