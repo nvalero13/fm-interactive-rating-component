@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Overpass:wght@400;700&display=swap");
+body {
+  font-family: "Overpass";
+  margin: 0;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating {
+  box-sizing: border-box;
+  background: radial-gradient(circle at top, hsl(213, 19%, 18%) 0%, hsl(216, 12%, 8%) 100%);
+  border-radius: 26px;
+  height: 412px;
+  width: 412px;
+  padding: 32px;
+  padding-bottom: 28px;
+  padding-right: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rating .star {
+  width: 50px;
+  height: 50px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.rating h1 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 0;
+}
+.rating p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  line-height: 150%;
+}
+.rating .numbers {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.rating .numbers button {
+  font-family: "Overpass";
+  background-color: hsl(213, 19%, 18%);
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+  width: 50px;
+  color: hsl(217, 12%, 63%);
+  font-size: 18px;
+}
+.rating .numbers button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+.rating .submit {
+  margin-top: 18px;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 24px;
+  width: 100%;
+  padding: 14px;
+}
+.rating .submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}/*# sourceMappingURL=style.css.map */
