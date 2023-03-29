@@ -13,7 +13,7 @@ const submit = () => {
 }
 
 const select = (e) => {
-  rating = e.target.getAttribute('data')
+  rating = e.target.getAttribute('value')
 
   if (
     Object.values(numberButtons).some((el) => el.classList.contains('active'))
